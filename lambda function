@@ -1,0 +1,14 @@
+#lambda function : lambda function is a small anonymous function. It can take any number of arguments but it can only have only one expression.
+x=lambda a:a+10
+print(x(5))
+15
+def myfun(n):
+    return lambda a:a*n
+doublevalue = myfun(2)
+print(doublevalue(10))
+20
+def myfun(n):
+    return lambda a:a*n
+doublevalue = myfun(3)
+print(doublevalue(10))
+30
